@@ -8,8 +8,8 @@ import uvicorn
 from typing import Tuple, Optional
 
 # Configurações
-API_KEY_TOMTOM = "API_Key do TomTom"
-CAMINHO_EXCEL = r"Caminho para o ficheiro.xls"
+API_KEY_TOMTOM = "c3XHbxJPleK7qYyIzs9moDgxxu5sjRRW"
+CAMINHO_EXCEL = r"C:\Users\TiagoAzevedo\OneDrive - CGASC\Projetos\P - Projetos\Cache\CEP2.xlsx"
 
 # Caches em memória: coordenadas por CEP e rotas por par de coordenadas+modo
 coord_cache: dict[str, Tuple[Optional[float], Optional[float]]] = {}
